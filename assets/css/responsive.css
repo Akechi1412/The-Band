@@ -1,0 +1,121 @@
+/*PC*/
+@media (min-width: 64em) {
+    #header .mobile-menu-btn {
+        display: none;
+    }
+}
+
+/*Talet && Mobile*/
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 16px;
+        font-size: 16px;
+    }
+    .contact-submit-btn {
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    .contact-context .contact-info {
+        line-height: 2;
+    }
+    #footer .social-info a {
+        margin: 0 8px;
+    }
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/*Tablet*/
+@media (max-width: 63.9375em) and (min-width: 46.25em) {
+    #content .content-section {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    #header .mobile-menu-btn {
+        display: none;
+    }
+    #nav .sub-nav a {
+        padding: 5px 12px;
+    }
+    /*footer*/
+    #footer .social-info {
+        font-size: 48px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 46.1875em) {
+    .s-full-width, 
+    .s-col-one {
+        width: 100% !important;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    /*Header*/
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav .sub-nav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .sub-nav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        float: right;
+        padding: 0 21px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header .menu-icon {
+        line-height: 46.4px;
+        color: #fff;
+        font-size: 20px;
+    }
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    #header .mobile-menu-btn:hover .menu-icon {
+        color: #000;
+    }
+
+    /*Content*/
+    #content .content-section {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+
+    /*contact*/
+    .contact-context .contact-form {
+        margin-top: 32px;
+    }
+    /*footer*/
+    #footer .social-info {
+        font-size: 32px;
+    }
+}
+
